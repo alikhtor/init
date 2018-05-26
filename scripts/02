@@ -1,0 +1,3 @@
+echo "apt-get update && apt-get upgrade" > up2.sh
+echo "0 4 * * 1 sh up2.sh > sudo /var/log/update_script.log" > every_monday_at_4_am
+crontab every_monday_at_4_am

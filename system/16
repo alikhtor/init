@@ -1,0 +1,5 @@
+Google: schedule task Linux
+
+command: "crontab" / 'sudo crontab -l'
+
+http://kvz.io/blog/2007/07/29/schedule-tasks-on-linux-using-crontab/
